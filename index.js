@@ -16,10 +16,7 @@ app.get('/', function(req, res) {
 });
 
 app.post('/api/fileanalyse', function(req, res){
-    console.log(req.body) // form fields
-    console.log(req.file) // form files
-    console.log(req.file.size) // form files
-    // res.end(req.file.size.toString());
+    // console.log(req.file) // form files
     res.json({ fileSize: req.file.size });
 });
 
