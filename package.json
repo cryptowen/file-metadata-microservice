@@ -1,0 +1,28 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice on FreeCodeCamp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huwenchao/file-metadata-microservice.git"
+  },
+  "keywords": [
+    "FreeCodeCamp"
+  ],
+  "author": "huwenchao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huwenchao/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/huwenchao/file-metadata-microservice#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "multer": "^1.1.0",
+    "nunjucks": "^2.3.0"
+  }
+}
